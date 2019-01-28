@@ -12,10 +12,11 @@ def prime_num(x):
 			if i % b == 0:
 				break
 		else:
-			result.append(i)
+			#result.append(i)
+			print(i)
 			count += 1
 		i += 1
-	print(result)
+	#print(result)
 prime_num(a)
 print("%s seconds" %(time.clock() - start_time))
 

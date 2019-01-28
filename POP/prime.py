@@ -5,7 +5,7 @@ def prime_num(x):
 	for i in range(2, x):
 		for b in range(2, i):
 			if i % b == 0:
-				break 
+				break 	
 		else:
 			print(i)
 prime_num(num)
